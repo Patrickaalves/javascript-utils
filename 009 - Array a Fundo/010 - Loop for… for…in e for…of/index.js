@@ -19,6 +19,9 @@ const myArrayObj = [
 //   console.log(myArrayObj[i].nome, myArrayObj[i].sobreNome);
 // }
 
+// Para objetos → use for...in (ou Object.keys, Object.values, Object.entries).
+// Para arrays → use for...of (ou forEach, map).
+
 // for...of
 // Itera sobre: valores de objetos iteráveis (arrays, strings, Maps, Sets, NodeLists etc.).
 // Não funciona diretamente em objetos simples (a menos que implemente um iterador).
