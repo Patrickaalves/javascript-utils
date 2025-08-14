@@ -32,3 +32,17 @@ pedidos.map((element, index) => {
 });
 
 console.log(pedidos);
+
+const pedidosAtualizados = pedidos.map((element) => {
+  if (element.id === 29 && element.alimento === "Coxinha") {
+    return { ...element, alimento: "kibe" }; // cria novo objeto
+  }
+  return element;
+});
+
+// Esse caso é imutável (não mexe nos objetos originais).
+// Retorna um novo array.
+
+// 💡 Regra mental:
+// Preciso de um novo array com valores modificados? → use map.
+// Só quero percorrer e modificar dados já existentes? → use forEach.
