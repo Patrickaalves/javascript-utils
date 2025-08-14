@@ -1,6 +1,7 @@
 "use strict";
 
 const div = document.querySelector("div");
+div.
 div.setAttribute("id", "teste");
 
 div.setAttribute("class", `${div.getAttribute("class")} active`);

@@ -5,6 +5,8 @@
 // NodeList [p.paragrafo, p#paragrafo]
 const p = document.querySelectorAll("p");
 
+console.log(p)
+
 p.forEach((element, index) => {
   element.style.color = "#FFF";
   element.style.padding = "20px";
