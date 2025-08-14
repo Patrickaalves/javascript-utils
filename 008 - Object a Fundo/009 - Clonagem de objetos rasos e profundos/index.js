@@ -3,7 +3,14 @@ let Tenis = {
   estoque: true,
 };
 
-let link = { link: { a: "a", b: { c: "c" } } };
+let link = { 
+  link: { 
+    a: "a", 
+    b: { 
+      c: "c" 
+    } 
+  } 
+};
 
 function cloneObject(objc) {
   return JSON.parse(JSON.stringify(objc));

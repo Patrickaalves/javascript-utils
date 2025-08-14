@@ -19,14 +19,26 @@ const myArrayObj = [
 //   console.log(myArrayObj[i].nome, myArrayObj[i].sobreNome);
 // }
 
-// for Of
-// for (let item of myArray) {
-//   console.log(item);
+// for...of
+// Itera sobre: valores de objetos iteráveis (arrays, strings, Maps, Sets, NodeLists etc.).
+// Não funciona diretamente em objetos simples (a menos que implemente um iterador).
+
+// Exemplo com array:
+// const frutas = ["maçã", "banana", "laranja"];
+
+// for (const fruta of frutas) {
+//   console.log(fruta);
 // }
 
-// for in
-// const obj = { nome: "Dener", sobreNome: "Troquatte" };
 
-// for (let item in obj) {
-//   console.log(item);
+// for...in
+// Itera sobre: chaves (nomes das propriedades) enumeráveis de um objeto.
+// Funciona para objetos e arrays, mas em arrays retorna os índices como strings, não os valores.
+// É mais usado para objetos, não para arrays.
+// Exemplo com objeto:
+
+// const pessoa = { nome: "Ana", idade: 25, cidade: "São Paulo" };
+
+// for (const chave in pessoa) {
+//   console.log(chave, pessoa[chave]);
 // }

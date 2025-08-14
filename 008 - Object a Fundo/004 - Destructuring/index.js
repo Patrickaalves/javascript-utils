@@ -7,10 +7,10 @@ const Tenis = {
   link: { a: "a é = a", b: { c: "C é = c" } },
 };
 
-const { tamanho, estoque, marcas = "Não possui Marca alguma!" } = Tenis;
+const { tamanho, estoque, marcas = "Não possui Marca alguma!" } = Tenis; // se marcas não existir, posso colocar um valor padrao
 console.log(tamanho, estoque, marcas);
 
-const { secret: randomNumber, n: avaliacoes } = Tenis;
+const { secret: randomNumber, n: avaliacoes } = Tenis; // Aqui estou mudando o nome de secret para randomNumber
 console.log(secret);
 console.log(randomNumber);
 console.log(avaliacoes);

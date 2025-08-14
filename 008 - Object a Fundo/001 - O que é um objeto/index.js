@@ -32,7 +32,7 @@ let Tenis = {
     },
   ],
   getMarcaArrayValores: function (param) {
-    return this.marcaArrayObj[param];
+    return this.marcaArrayValores[param];
   },
   getMarcaArrayObj: function (param) {
     return this.marcaArrayObj[param].nome;
@@ -42,3 +42,5 @@ let Tenis = {
 console.log(Tenis);
 console.log(Tenis.tipo);
 console.log(Tenis.tamanho);
+console.log(Tenis.getMarcaArrayValores(0))
+console.log(Tenis.getMarcaArrayObj(1))

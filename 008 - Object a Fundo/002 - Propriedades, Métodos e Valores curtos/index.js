@@ -21,7 +21,10 @@ const Tenis2 = {
 console.log(Tenis2);
 
 const Tenis3 = {
-  getTamanho() {
+  getTamanhoo: function() {
+    return 22;
+  },
+  getTamanho() { // dessa forma fica menos verboso
     return 35;
   },
 };

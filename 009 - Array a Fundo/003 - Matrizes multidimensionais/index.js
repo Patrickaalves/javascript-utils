@@ -15,4 +15,4 @@ const arr = [
 ];
 
 console.table(arr);
-console.log(arr[3][2][2]);
+console.log(arr[3][3][2][0]);
